@@ -3,6 +3,7 @@ nav {
     height: fit-content;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 nav a {
