@@ -9,6 +9,8 @@ html, body {
     width: 100%;
 }
 
+
+
 .header {
     width: 100%;
     height: 70px;
@@ -48,6 +50,22 @@ main {
     display: flex;
     justify-content: center;
     background-color: lightseagreen;
+}
+
+main.orange {
+    background-color: orange;
+}
+
+main.pink {
+    background-color: pink;
+}
+
+main.green {
+    background-color: green;
+}
+
+main.orangered {
+    background-color: orangered;
 }
 
 .content {
