@@ -1,0 +1,19 @@
+nav {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    font-style: 14px;
+    padding: 16px;
+    color: black;
+    transition: opacity 0.5s ease, background-color 0.5s ease;
+}
+
+nav a:hover {
+    cursor: pointer;
+    background-color: rgb(189, 181, 181);
+    opacity: 0.7;
+}
