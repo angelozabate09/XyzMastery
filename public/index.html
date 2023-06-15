@@ -1,35 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login and Signup System</title>
-  <link rel="stylesheet" type="text/css" href="SignupLogin.css">
+  <title>Math Reviewer</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" href="./styles/navigation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <div class="container">
-    <div class="form-container">
-      <h2>Login</h2>
-      <form id="login-form">
-        <input type="text" id="login-email" placeholder="Email" required>
-        <input type="password" id="login-password" placeholder="Password" required>
-        <button type="submit" id="login-button">Login</button>
-      </form>
-    </div>
-    <div class="form-container">
-      <h2>Signup</h2>
-      <form id="signup-form">
-        <input type="text" id="signup-name" placeholder="Name" required>
-        <input type="text" id="signup-email" placeholder="Email" required>
-        <input type="password" id="signup-password" placeholder="Password" required>
-        <button type="submit"id = 'sign-up-button'>Signup</button>
-      </form>
-    </div>
-  </div>
-  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
-  <script src="./Firebase.js"></script>
-  <script type = 'module' src="./Signup.js"></script>
-  <script type = 'module' src="./Login.js"></script>
+
+    <nav>
+        <a href="./Home.html"> HOME </a>
+        <a> ABOUT </a>
+        <a href="./linear_relations.html"> UNIT 1 </a>
+        <a href="./Statistics.html"> UNIT 2 </a>
+        <a href="Geometry.html"> UNIT 3 </a>
+        <a href="Trigonometry.html"> UNIT 4 </a>
+        <button id="log-out-button"> Log out </button>
+    </nav>
+
+    <header class="header">
+        <input type="text" placeholder="Search">
+        <div>
+           
+        </div>
+    </header>   
+
+    <main>
+
+        <div class="content">
+            <div class="container">
+                <div class="box orange">
+                </div>
+                <a href="./linear_relations.html"> Go to Linear Relations </a>
+            </div>
+            <div class="container">
+                <div class="box pink">
+
+                </div>
+                <a href="./Statistics.html"> Go to Statistics </a>
+            </div>
+            <div class="container">
+                <div class="box green">
+
+                </div>
+                <a href="./Geometry.html"> Go to Geometry </a>
+            </div>
+            <div class="container">
+                <div class="box orangered">
+
+                </div>
+                <a href="./Trigonometry.html"> Go to Trigonometry </a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+<script src="./Firebase.js"></script>
+<script src="./user-check.js"></script>
+
 </html>
