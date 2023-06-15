@@ -62,8 +62,8 @@ main.pink {
     background-color: pink;
 }
 
-main.green {
-    background-color: green;
+main.slateblue {
+    background-color: slateblue;
 }
 
 main.orangered {
@@ -97,7 +97,7 @@ margin-top: 40px;
     background-color: pink;
 }
 .box.green {
-    background-color: green;
+    background-color:slateblue;
 }
 .box.orangered {
     background-color: orangered;
