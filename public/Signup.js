@@ -1,4 +1,3 @@
-import {signin} from './Login.js'
 const signUpButton = document.querySelector("#sign-up-button");
 bindEvents();
 
@@ -28,4 +27,12 @@ async function SignupFirebase(signup_email, signup_password) {
           alert('User Created!');          
         })
         signin(signup_email, signup_password)
+}
+
+async function signin(Email,Password) {
+  auth.signInWithEmailAndPassword(Email,Password)
+  .then(() =>{
+   alert('Log in Success!')
+   window.location.href = './index.html'
+  })
 }

@@ -12,16 +12,17 @@
     width: 300px;
   }
   
-  h2 {
+  h2, h1 {
     text-align: center;
   }
-  
+
   input[type="text"],
   input[type="password"] {
     display: block;
     margin-bottom: 10px;
     width: 100%;
     padding: 5px;
+    box-sizing: border-box;
   }
   
   button {
@@ -30,6 +31,53 @@
     padding: 10px;
     border: none;
     width: 100%;
+    box-sizing: border-box;
     cursor: pointer;
   }
   
+  button.white {
+    background-color: #ffffff;
+    color: black;
+    font-size: 14px;
+    padding: 10px 40px 10px 10px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-image: url("./images/google_logo.webp");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 15px;
+    background-origin: content-box;
+    text-indent: 50px; 
+  }
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .wrapper a {
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  #customGoogleBtn {
+    background-color: #ffffff;
+    color: black;
+    font-size: 14px;
+    width: 80%;
+    padding: 10px 40px 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-image: url("/images/google.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 38px;
+    background-origin: content-box;
+    text-indent: 50px; 
+  }
