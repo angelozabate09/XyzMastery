@@ -4,7 +4,7 @@ auth.onAuthStateChanged((user) => {
     if (user) {
         logoutButton.style.display = "block";
     } else {
-        window.location.href = "./sign-in.html";
+        window.location.href = "./Sign-in.html";
     }
 });
 
