@@ -5,10 +5,11 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-style:normal;
 }
 
 nav button {
-    font-style: 14px;
+    font-size: 14px;
     padding: 16px;
     color: black;
     background-color: transparent;
@@ -29,8 +30,17 @@ nav div {
     align-items: center;
 }
 
+nav div img {
+    display: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border-width: 0;
+}
+
 nav div a {
-    font-style: 14px;
+    font-size: 18px;
+    text-decoration: none;
     padding: 16px;
     color: black;
     transition: opacity 0.5s ease, background-color 0.5s ease;

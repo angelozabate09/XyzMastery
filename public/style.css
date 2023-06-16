@@ -7,8 +7,12 @@ html, body {
     color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
+    font-family: "Roboto Mono", monospace; /* Use a monospaced font */
+    font-size: 18px; /* Adjust the size as needed */
+    font-weight: 400; /* Adjust the weight as needed */
+    letter-spacing: 1px; /* Increase letter-spacing for a more futuristic look */
+    text-transform: uppercase; /* Transform text to uppercase for a bold appearance */
 }
-
 
 
 .header {
@@ -51,7 +55,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: lightseagreen;
+    background-image: url('./images/bg.jpg');
 }
 
 main.orange {
@@ -107,9 +111,10 @@ margin-top: 40px;
     margin-top: 30px;
     width: 300px;
     height: 50px;
-    background-color: whitesmoke;
+    background-color: darkgray;
     font-family: Verdana;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;

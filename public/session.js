@@ -1,9 +1,14 @@
+import { displayProfile } from "./display-profile.js";
+
 const logoutButton = document.querySelector("#log-out-button");
 const signInButton = document.querySelector("#sign-in-button");
+const userPhoto = document.querySelector("#user-photo");
 
 auth.onAuthStateChanged((user) => {
     if (user) {
         logoutButton.style.display = "block";
+        userPhoto.style.display = "block";
+        displayProfile(user.photoURL);
     } else {
         signInButton.style.display = "block";
     }
@@ -12,8 +17,4 @@ auth.onAuthStateChanged((user) => {
 logoutButton.addEventListener('click', async () => {
     await auth.signOut();
     window.location.href = "./";
-});
-
-signInButton.addEventListener('click', () => {
-    window.location.href = "./Sign-in.html";
 });
