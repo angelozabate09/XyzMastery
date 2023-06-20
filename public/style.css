@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@ html, body {
     font-weight: bold;
     letter-spacing: 1px; 
     text-transform: uppercase; 
+    scroll-behavior: smooth;
 }
 
 
@@ -79,19 +81,76 @@ main.orangered {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 100px;
+    column-gap: 100px;
 }
 
 .content .container {
-margin-top: 110px;
+margin-top: 20px;
+}
+.XYZM {
+    font-size: 80px;
+    margin-top: 50px;
+    background-color: rgba(10, 10, 10, 0.6);
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    text-transform: none;
+    letter-spacing: 10px;
+}
+.m{
+    color:red;
+}
+.a{
+    color:rgb(90, 157, 245);
+}
+.s{
+    color:orangered;
+}
+.t{
+    color:greenyellow;
+}
+.e{
+    color:blueviolet;
+}
+.r{
+    color:rgb(4, 255, 171);
+}
+.y{
+    color:plum;
 }
 
 .box  {
-    width: 300px;
+    width: 150px;
+    min-width: 150px;
+    height: 50px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(22, 16, 17);
+}
+
+.box p {
+    width: 100%;
+    text-align: center;
+}
+
+.tri {
+    font-size: 17px;
+}
+
+.container .wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .img{
+    width: 150px;
     min-width: 150px;
     height: 50px;
     min-height: 150px;
     background-color: rgb(22, 16, 17);
+
 }
 
 .box.orange {
@@ -108,24 +167,26 @@ margin-top: 110px;
 }
 
 .container a {text-decoration: none;
-    margin-top: 20px;
-    width: 300px;
-    height: 50px;
-    background-color: darkgray;
-    font-family: Verdana;
-    font-size: 11px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-width: 1px;
-    border-color: rgb(0, 0, 0);
-    color: black;
-    transition: background-color 0.3 ease;
-
-
+    margin-top: 10px;
+  margin-left: 25px;
+  width: 250px;
+  height: 50px;
+  background-color: rgb(124, 146, 148);
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  color: rgb(247, 245, 245);
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
 }
+
 .container a:hover{
-    background-color: gray
+    background-color: lightgray;
+    cursor: pointer;
+    scale: 1.1;
 }
 

@@ -65,6 +65,72 @@
     border-style: solid;
     border-width: 1px;
     border-color: white;
+    border-radius: 10px;
+}
+.wrapper .box-link:hover{
+    background-color: gray;
+    cursor: pointer;
+    scale: 1.1;
+}
+.wrapper .box-linkNF{
+    width: 200px;
+    height: 200px;
+    font-size: 34px;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px;
+}
+.wrapper .box-linkNF{
+    width: 200px;
+    height: 200px;
+    font-size: 34px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px;
+}
+.wrapper .box-linkNF:hover{
+    background-color: gray;
+    cursor: pointer;
+     scale: 1.1;
+}
+
+.wrapper .box-linkE{
+    width: 200px;
+    height: 200px;
+    font-size: 34px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 117, 252);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.wrapper .box-linkE:hover{
+    background-color: gray;
+    cursor: pointer;
+     scale: 1.1;
 }
 
 .lessons {

@@ -2,7 +2,7 @@ import { displayProfile } from "./display-profile.js";
 
 const logoutButton = document.querySelector("#log-out-button");
 const signInButton = document.querySelector("#sign-in-button");
-const userPhoto = document.querySelector("#user-photo");
+const userPhoto = document.querySelector("#user-button");
 
 auth.onAuthStateChanged((user) => {
     if (user) {
