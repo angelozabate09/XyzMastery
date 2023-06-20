@@ -7,18 +7,19 @@ html, body {
     color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
-    font-family: "Roboto Mono", monospace; /* Use a monospaced font */
-    font-size: 18px; /* Adjust the size as needed */
-    font-weight: 400; /* Adjust the weight as needed */
-    letter-spacing: 1px; /* Increase letter-spacing for a more futuristic look */
-    text-transform: uppercase; /* Transform text to uppercase for a bold appearance */
+    font-family: "Roboto Mono", monospace; 
+    font-size: 20px; 
+    font-weight: 400; 
+    font-weight: bold;
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
 }
 
 
 .header {
     width: 100%;
     height: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,11 +56,10 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url('./images/bg.jpg');
 }
 
 main.orange {
-    background-color: orange;
+    background-color:orange;
 }
 
 main.pink {
@@ -83,14 +83,14 @@ main.orangered {
 }
 
 .content .container {
-margin-top: 40px;
+margin-top: 110px;
 }
 
 .box  {
     width: 300px;
-    min-width: 250px;
-    height: 300px;
-    min-height: 300px;
+    min-width: 150px;
+    height: 50px;
+    min-height: 150px;
     background-color: rgb(22, 16, 17);
 }
 
@@ -108,12 +108,12 @@ margin-top: 40px;
 }
 
 .container a {text-decoration: none;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 300px;
     height: 50px;
     background-color: darkgray;
     font-family: Verdana;
-    font-size: 16px;
+    font-size: 11px;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -122,6 +122,7 @@ margin-top: 40px;
     border-color: rgb(0, 0, 0);
     color: black;
     transition: background-color 0.3 ease;
+
 
 }
 .container a:hover{
