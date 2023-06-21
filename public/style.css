@@ -56,6 +56,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 main.orange {
@@ -80,6 +81,7 @@ main.orangered {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 100px;
+
 }
 
 .content .container {
