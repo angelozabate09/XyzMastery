@@ -217,6 +217,30 @@
     background-color: lightskyblue;
 }
 
+.about {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(10, 10, 10, 0.5);
+}
+
+.about h1 {
+    font-size: 48PX;
+    display: flex;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.about p {
+    font-size: 24px;
+    max-width: 95%;
+    font-family: 500;
+    text-align: justify;
+}
+
 .lessons .title {
     width: calc(100% - 160px);
     font-size: 60px;
