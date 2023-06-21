@@ -3,15 +3,14 @@
 <head>
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="./styles/content.css">
     <link rel="stylesheet" href="./styles/navigation.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <nav>
-       
         <div>
             <a href="./index.html"> HOME </a>
             <a href="about.html"> ABOUT </a>
@@ -28,13 +27,29 @@
         </div>
     </nav>
 
+    <main>
+        <div class="about">
+            <h1>About</h1>
+            <p>Welcome to our Math Reviewer! We are passionate about helping 
+                students excel in mathematics. Our mission is to make math 
+                enjoyable, accessible, and engaging for learners of all ages. 
+                Whether you're preparing for an exam, refreshing your skills, 
+                or simply exploring the beauty of numbers, our comprehensive 
+                math review materials are here to guide you on your learning 
+                journey. With a team of experienced educators and a wealth of 
+                practice problems, explanations, and interactive resources, 
+                we aim to build your confidence and strengthen your understanding 
+                of key math concepts. Join us and discover the joy of mastering 
+                mathematics, one equation at a time!
+            </p>
+        </div>
+    </main>
 
-
-
-
-
-
-
-    <script src="session.js"></script>
 </body>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+<script src="./Firebase.js"></script>
+<script type="module" src="./user-check.js"></script>
 </html>
