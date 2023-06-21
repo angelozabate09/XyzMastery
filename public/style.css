@@ -13,10 +13,8 @@ html, body {
     font-weight: 400; 
     font-weight: bold;
     letter-spacing: 1px; 
-    text-transform: uppercase; 
     scroll-behavior: smooth;
 }
-
 
 .header {
     width: 100%;
@@ -171,7 +169,7 @@ margin-top: 20px;
   margin-left: 25px;
   width: 250px;
   height: 50px;
-  background-color: rgb(124, 146, 148);
+  background-color:rgb(124, 146, 148);
   font-family: Verdana;
   font-size: 11px;
   font-weight: bolder;
@@ -179,14 +177,18 @@ margin-top: 20px;
   justify-content: center;
   align-items: center;
   border: 1px solid white;
-  color: rgb(247, 245, 245);
+  color: white;
   transition: background-color 0.3s ease;
   border-radius: 10px;
 }
 
 .container a:hover{
-    background-color: lightgray;
+    background-color: rgb(150, 146, 146);
     cursor: pointer;
     scale: 1.1;
 }
 
+nav a{
+    margin: 50;
+
+}
