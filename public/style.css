@@ -65,7 +65,7 @@ main.orange {
 }
 
 main.pink {
-    background-color: pink;
+    background-color: rgb(252, 122, 144);
 }
 
 main.slateblue {
@@ -73,7 +73,7 @@ main.slateblue {
 }
 
 main.orangered {
-    background-color: orangered;
+    background-color: rgb(235, 95, 45);
 }
 
 .content {

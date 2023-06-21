@@ -1,19 +1,78 @@
+body{
+  background-size: cover;
+  background-position: center; 
+  background-image: url('./images/bg.jpg');
+}
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh; 
   }
-  
+  h1 {
+    font-size: 25px;
+    background-color: rgba(10, 10, 10, 0.6);
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    text-transform: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 250px;
+    letter-spacing: 5px;
+    margin: 20px;
+    margin-left: 25px;
+    gap: 3px;
+    border-radius: 5px;
+}
+.m{
+    color:red;
+}
+.a{
+    color:rgb(90, 157, 245);
+}
+.s{
+    color:orangered;
+}
+.t{
+    color:greenyellow;
+}
+.e{
+    color:blueviolet;
+}
+.r{
+    color:rgb(4, 255, 171);
+}
+.y{
+    color:plum;
+}
+
   .form-container {
     border: 1px solid #ccc;
     padding: 20px;
     margin: 10px;
     width: 300px;
+    background-color: white;
   }
   
-  h2, h1 {
+  h2 {
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: px;
+    font-weight: 650;
+  }
+  h3 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 750;
+  }
+  h4 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 16px;
   }
 
   input[type="text"],
@@ -32,24 +91,33 @@
     border: none;
     width: 100%;
     box-sizing: border-box;
-    cursor: pointer;
+    font-weight: 600;
+  }
+  button:hover{
+    background-color: #379220;
+    scale: 1.01;
+    
   }
   
   button.white {
     background-color: #ffffff;
     color: black;
     font-size: 14px;
+    font-weight: 550;
     padding: 10px 40px 10px 10px;
     border: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 4px;
-    cursor: pointer;
     background-image: url("./images/google_logo.webp");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 15px;
     background-origin: content-box;
     text-indent: 50px; 
+  }
+  button.white:hover {
+    background-color: #ccc;
+    scale: 1.01;
   }
 
   .wrapper {
@@ -63,6 +131,9 @@
     margin-left: 5px;
     margin-bottom: 15px;
     margin-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
   }
 
   #customGoogleBtn {

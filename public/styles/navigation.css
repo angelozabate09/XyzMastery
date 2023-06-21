@@ -9,9 +9,10 @@ nav {
 }
 
 nav button {    
-    font-size: 14px;
-    padding: 16px;
+    font-size: 12px;
+    padding: 12px;
     color: black;
+    font-weight: bold;
     background-color: transparent;
     border: none;
     display: none;
@@ -20,8 +21,9 @@ nav button {
 
 nav button:hover {
     cursor: pointer;
-    background-color: rgb(189, 181, 181);
+    background-color:transparent;
     opacity: 0.7;
+    scale: 1.2;
 }
 
 nav div {
@@ -30,13 +32,21 @@ nav div {
     align-items: center;
 }
 
-
-
 nav div .user-button img {
     width: 24px;
     height: 24px;
     border-radius: 50%;
     border-width: 0;
+       
+}
+
+nav div .user-button {
+    border-radius: 50%;
+
+}
+
+nav div .user-button img:hover {
+    background-color: white;
 }
 
 nav div a {
